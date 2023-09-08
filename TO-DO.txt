@@ -1,0 +1,29 @@
+To-do:
+
+- [x]  Logic first
+- [x]  Then design
+
+- [x]  Calculator
+- [x]  Display
+- [x]  Button - reusable button components
+
+https://reactnative.dev/docs/statusbar - <StatusBar barStyle={'light-content'} />
+
+- [x]  +/- operator should negate or opposite the current number-only displayValue
+- [x]  % operator should perform a (0.01 * displayValue) and set that as the new state
+- [x]  state to remember which operator was selected
+- [x]  if pressing two consecutive operators
+- [x]  selectedOperator should have change style
+- [x]  leftValue doesn’t change if utility buttons pressed half way
+- [x]  0 stays at the beginning after ‘AC’ pressed
+- [x]  Huge numbers, get to e? or just shrink to fit text
+- [x]  Global styles
+- [x]  flush the ‘0’ to the left
+- [x]  Typing
+
+UNFINISHED To-do items:
+
+- [ ]  AC button turns in to ‘C’ to clear just the previous move? “clear screen” vs “clear memory”
+- [ ]  slight animations to operator buttons when changing color
+- [ ]  decimal symbol bugs, setDisplayValue(0)
+- [ ]  When dividing by 0 (eg. 91 / 0), make ‘Infinity’ display as ‘Error’
